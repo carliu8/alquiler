@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RAMA DEV</title>
+  <!-- Agrega los estilos de Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron mt-5">
+      <h1 id="mensaje" class="display-4">¡Hola!</h1>
+    </div>
+  </div>
+
+  <!-- Agrega el script de Bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  <script>
+    // Función para cambiar el mensaje dinámicamente
+    function cambiarMensaje() {
+      var mensaje = document.getElementById("mensaje");
+      mensaje.innerHTML = "Hola desde la rama dev";
+    }
+
+    // Llama a la función para cambiar el mensaje después de que la página se haya cargado
+    window.onload = cambiarMensaje;
+  </script>
+</body>
+</html>
