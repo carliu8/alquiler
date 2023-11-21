@@ -1,0 +1,37 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333333;
+  }
+  
+  /* Estilo para un encabezado h1 */
+  h1 {
+    font-size: 24px;
+    color: #FF0000;
+  }
+  
+  /* Estilo para un enlace */
+  a {
+    color: #0066FF;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilo para una clase "boton" */
+  .boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF9900;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .boton:hover {
+    background-color: #FFCC33;
+  }
